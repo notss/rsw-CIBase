@@ -13,6 +13,7 @@ user pwd = devdb_pwd
 ### Source Code Modifications
 
 **\application\config\autoload.php**
+
 Auto-load Packages and Auto-load Libraries
 ```
 42: $autoload['packages'] = array(APPPATH.'third_party/ion_auth/');
@@ -20,6 +21,7 @@ Auto-load Packages and Auto-load Libraries
 ```
 
 **\application\config\config.php**
+
 Base Site URL, Index File, and Session Variables
 ```
 26: $config['base_url'] = 'http://localhost/';
@@ -29,6 +31,7 @@ Base Site URL, Index File, and Session Variables
 ```
 
 **\application\config\database.php**
+
 DATABASE CONNECTIVITY SETTINGS
 ```
 78: 'hostname' => 'mysql',
