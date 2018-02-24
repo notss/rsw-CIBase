@@ -32,7 +32,7 @@ Base Site URL, Index File, and Session Variables
 
 **\application\config\database.php**
 
-DATABASE CONNECTIVITY SETTINGS
+Database Connectivity Settings
 ```
 78: 'hostname' => 'mysql',
 79: 'username' => 'devdb_user',
